@@ -1,0 +1,12 @@
+
+
+# Creating an array with characters
+
+from array import *
+array1 = array('d' , [1,2,3,4,5])
+
+array2 = array(array1.typecode(a*3 for a in array1)
+
+print('array2 elements are: ')
+for i in array2:
+    print(i)
